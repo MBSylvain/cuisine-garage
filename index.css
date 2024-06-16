@@ -1,0 +1,63 @@
+/*Présentatrion du garage*/
+#accueil {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    
+}
+/* prestation du garage*/
+.group{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+.card-presta{
+    display: flex;
+    flex-direction:column;
+    width: 30%;
+    height: 65%;
+    padding: 10px;
+    box-shadow:0 4px 8px #333 ;
+}
+.card-presta:hover{
+    border-color: #d94350; /* Change la couleur de la bordure au survol */
+    box-shadow: 0 4px 8px #d94350; /* Ajoute une ombre */
+}
+
+/*Caroussel des témoiniage*/
+.commentaire{
+    width: 100%;
+    height: 50%;
+    border-top: #333 2px;
+}
+
+/* style sur le carrousel */
+.carousel-item {
+    background-color: #fff;
+}
+
+.carousel-control-prev, 
+.carousel-control-next {
+    display: none; /* Hide the carousel navigation buttons */
+}
+
+/* Optional: Adjust card styling */
+.custom-carousel .carousel-inner .carousel-item .card {
+    background-color: #fff; /* Adjust card background color if needed */
+}
+
+/* style des occasions */
+.img-annonce, .img-galerie {
+    width: 100%;
+    height: 225px;
+    text-align: center;
+}
+
+

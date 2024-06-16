@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    padding: 20px; /* Espacement intérieur */
+    text-align: center; /* Centre le texte */
+    border-top: #333;
+    }
+    
+.row{
+    justify-content: center;
+    align-content: space-between;
+}
+
+.nav-link{
+    color: #333;
+}
+.nav-link:hover{
+    color: #d9777f;
+}

@@ -1,0 +1,75 @@
+
+*{
+    box-sizing: border-box;
+}
+/*Cartes des voitures*/
+.voitures{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+   
+}
+.card-voitures{
+    width: 25%;
+    height: 80%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    
+ }
+  
+ .card-voitures:hover {
+    border-color: #d94350; /* Change la couleur de la bordure au survol */
+    box-shadow: 0 4px 8px #d9777F; 
+    transform: scale(1.05); /* Agrandit légèrement la carte */
+}
+  
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%; 
+    height: auto;
+  }
+  
+.card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  
+.card-body p {
+    margin: 5px 0;
+  }
+
+.boutton-voitures{
+    background-color: #333;
+    color: #ffff;
+    width: 100px;
+    border-radius:15px;
+}
+/* Formulaire */
+.form-filtre{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.form-items{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+input{
+    width: 80px;
+}

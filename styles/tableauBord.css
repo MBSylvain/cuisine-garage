@@ -1,0 +1,36 @@
+#prestations ,#occasions,#horaires,#commentaires,#employers{
+display: flex;
+flex-direction: row;
+width: 100%;
+height: auto;
+justify-content: center;
+align-items: center;
+}
+
+.divgauche,
+.divdroites {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card-employ{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+
+.card-tdb{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #333;
+    border-radius: 15px;
+}
+
